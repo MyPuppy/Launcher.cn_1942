@@ -141,13 +141,11 @@ namespace ExcData
             {
                 if (SetRiderItem.Set_KartSN == Launcher.KartOld_SN)
                 {
-                    if (SetRiderItem.Set_Kart == 700 || SetRiderItem.Set_Kart == 701 || SetRiderItem.Set_Kart == 702 || SetRiderItem.Set_Kart == 703 || SetRiderItem.Set_Kart == 704 || 
-                        SetRiderItem.Set_Kart == 750 || SetRiderItem.Set_Kart == 751 || SetRiderItem.Set_Kart == 788)
+                    if (SetRiderItem.Set_Kart == 701 || SetRiderItem.Set_Kart == 750 || SetRiderItem.Set_Kart == 788)
                     {
                         TuneSpec.Tune_TypeC();
                     }
-                    else if (SetRiderItem.Set_Kart == 633 || SetRiderItem.Set_Kart == 647 || SetRiderItem.Set_Kart == 650 || SetRiderItem.Set_Kart == 671 || SetRiderItem.Set_Kart == 681 ||
-                             SetRiderItem.Set_Kart == 719 || SetRiderItem.Set_Kart == 787)
+                    else if (SetRiderItem.Set_Kart == 671 || SetRiderItem.Set_Kart == 787)
                     {
                         TuneSpec.Tune_TypeH();
                     }
@@ -163,13 +161,11 @@ namespace ExcData
             }
             else
             {
-                if (SetRiderItem.Set_Kart == 700 || SetRiderItem.Set_Kart == 701 || SetRiderItem.Set_Kart == 702 || SetRiderItem.Set_Kart == 703 || SetRiderItem.Set_Kart == 704 ||
-                    SetRiderItem.Set_Kart == 750 || SetRiderItem.Set_Kart == 751 || SetRiderItem.Set_Kart == 788)
+                if (SetRiderItem.Set_Kart == 701 || SetRiderItem.Set_Kart == 750 || SetRiderItem.Set_Kart == 788)
                 {
                     TuneSpec.Tune_TypeC();
                 }
-                else if (SetRiderItem.Set_Kart == 633 || SetRiderItem.Set_Kart == 647 || SetRiderItem.Set_Kart == 650 || SetRiderItem.Set_Kart == 671 || SetRiderItem.Set_Kart == 681 ||
-                         SetRiderItem.Set_Kart == 719 || SetRiderItem.Set_Kart == 787)
+                else if (SetRiderItem.Set_Kart == 671 || SetRiderItem.Set_Kart == 787)
                 {
                     TuneSpec.Tune_TypeH();
                 }
