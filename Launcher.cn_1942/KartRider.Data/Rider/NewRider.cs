@@ -149,7 +149,7 @@ namespace RiderData
         public static void KartSN()
         {
             NewRider.Kart_Old_Cut = 172;
-            NewRider.MaxKart = 903;
+            NewRider.MaxKart = 900;
 
             Launcher.KartOld_SN = 1;
             Launcher.KartSN = 1000;
